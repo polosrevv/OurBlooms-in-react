@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.main-text {
+    width: 100%;
+}
+
+.About-us {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.title-block {
+    width: 100%;
+    text-align: center;
+}
+
+.title-heading,
+.title-copy {
+    margin: 0 auto;
+}
+
+.title-copy {
+    margin-top: 0.5rem;
+}
+
+.logo {
+    font-size: 100px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: -2%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width:100%;
+}
+
+.Carousel {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+.About-us {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+.About-us a,
+.About-us a:visited,
+.About-us a:hover,
+.About-us a:active,
+.About-us a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 540px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.heading1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 140%;
+    letter-spacing: -2%;
+}
+.heading2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -2.5%;
+}
+
+.heading3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+.heading4 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+
+.paragraph1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -2.5%;
+}
+@media screen and (min-width: 1200px) {
+    .heading1 {
+        font-size: 40px;
+        line-height: 110%;
+    }
+    .heading2 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+    .heading3 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .heading4 {
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .paragraph1 {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .paragraph2 {
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .header-image {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .heading1 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+    .heading2 {
+        font-size: 32px;
+        line-height: 110%;
+    }
+    .heading3 {
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .heading4 {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .paragraph1 {
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .header-image {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .heading1 {
+        font-size: 32px;
+        line-height: 110%;
+    }
+    .heading2 {
+        font-size: 28px;
+        line-height: 110%;
+    }
+    .heading3 {
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .heading4 {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .paragraph1 {
+        font-size: 10px;
+        line-height: 140%;
+    }
+    .header-image {
+        height: 50%;
+        width: 100%;
+    }
+}   
