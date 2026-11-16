@@ -1,13 +1,18 @@
-import { useState } from 'react'
 import './Styles/App.css'
-import Navbar from './Components/Navbar'
+import { Routes, Route } from 'react-router-dom'
 import StartPage from './Pages/StartPage'
-import { BrowserRouter } from 'react-router-dom'
+import Menu from './Pages/Menu'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+
 function App() {
   return (
-    <>
-        <StartPage />
-    </>
+    <Routes>
+      <Route path="/" element={<StartPage />} />
+      <Route path="/menu" element={<Menu />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   )
 }
 

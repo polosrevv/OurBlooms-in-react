@@ -5,6 +5,89 @@ main {
     margin: 0 auto;
 }
 
+.menu {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0 4rem;
+}
+
+.menu-header{
+    text-align: left;
+}
+.category-header{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding-top: 0.25rem;
+}
+.call-to-action {
+    text-align: center;
+}
+
+.seasonal-section,
+.services-section {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    margin: 2rem 0;
+}
+
+.seasonal-arrangements{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    align-items: start;
+}
+
+.seasonal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.seasonal-title,
+.seasonal-price {
+    margin: 0;
+}
+
+.seasonal-image {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    grid-template-columns: none;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.service-title {
+    margin: 0;
+}
+
+.service-description {
+    margin: 0;
+    max-width: 760px;
+}
+
+.service-image {
+    border-radius: 14px;
+}
+
 .main-section {
     display: flex;
     flex-direction: column;
