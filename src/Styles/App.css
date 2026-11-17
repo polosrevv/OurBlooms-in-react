@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700&display=swap');
 
-main {
+.main {
     width: 1200px;
     margin: 0 auto;
 }
@@ -174,22 +175,71 @@ main {
 }
 
 .About-us {
+    font-family: 'Hanuman', sans-serif;
     display: inline-block;
-    margin: 0 auto;
-    background-color: yellow;
-    border: 2px solid black;
-    padding: 0.5rem 1rem;
+    background-color: #FFC800;
     border-radius: 20px;
     text-decoration: none;
     color: black;
+    width: 15%;
 }
 .About-us a,
 .About-us a:visited,
 .About-us a:hover,
 .About-us a:active,
 .About-us a:focus {
+    font-family: "Hanuman", serif;
     text-decoration: none;
     color: black;
+}
+
+.call-to-arms {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.call-to-arms .blue-image {
+    display: block;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+.call-to-arms .paragraph1,
+.call-to-arms .heading1 {
+    max-width: 80%;
+    margin: 0;
+}
+
+.call-to-arms-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background-color: #ffc800;
+    color: #000;
+    font-family: "Hanuman", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.End {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottom-image {
+    display: block;
+    width: 180%;
+    height: 770px;
 }
 
 .carousel-image {
