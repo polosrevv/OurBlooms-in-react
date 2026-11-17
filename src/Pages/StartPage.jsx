@@ -4,6 +4,7 @@ import Header from "../Components/Header"
 import Navbar from "../Components/Navbar"
 import Main from "../Components/main"
 import Title from "../Components/Title"
+import CallToArms from "../Components/CallToArms"
 function StartPage() {
     return (
         <div>
@@ -12,6 +13,7 @@ function StartPage() {
             <Header />
             <Main />
             <Title />
+            <CallToArms />
         </div>
         )
     }
