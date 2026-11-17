@@ -1,7 +1,14 @@
+import Navbar from '../Components/Navbar'
+import AboutHeader from '../Components/AboutHeader'
+import AboutOwner from '../Components/AboutOwner'
 function About() {
     return (
-        <div>
-            <h1>About</h1>
+        <div className="about-page">
+            <Navbar />
+            <div className="about-layout">
+                <AboutHeader />
+                <AboutOwner />
+            </div>
         </div>
     )
 }
