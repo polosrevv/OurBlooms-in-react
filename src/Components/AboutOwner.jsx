@@ -5,12 +5,14 @@ import CallToArms from './CallToArms'
 function AboutOwner() {
     return (
         <div className = "Owner">
-            <div className = "Owner-Image">
-                <img className = "Owner-Image" src = {Owner} alt = "Owner" />
-            </div>
-            <div className = "Owner-Text">
-                <h3 className = "Heading3">LILY SMITH</h3>
-                <p className = "Paragraph1">Owner</p>
+            <div className = "Owner-Profile">
+                <div className = "Owner-Image">
+                    <img className = "Owner-Image" src = {Owner} alt = "Owner" />
+                </div>
+                <div className = "Owner-Text">
+                    <h3 className = "Heading3">LILY SMITH</h3>
+                    <p className = "Paragraph1">Owner</p>
+                </div>
             </div>
             <div className = "Why-We-Do-It">
                 <h2 className = "Heading2">Our Blooms was founded in honor of Lily Smith's loving aunts, Teresa and Beth</h2>

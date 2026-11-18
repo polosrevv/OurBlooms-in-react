@@ -225,6 +225,19 @@ body {
     min-width: 0;
 }
 
+.Owner-Profile {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.Owner-Profile > .Owner-Image,
+.Owner-Text {
+    flex: 1;
+    min-width: 0;
+}
+
 .Owner-Image img,
 img.Owner-Image {
     display: block;
@@ -265,6 +278,9 @@ img.Big-flower-image {
         margin: 24px 0;
     }
 
+    .Owner-Profile {
+        gap: 16px;
+    }
 }
 
 .logo {

@@ -15,7 +15,17 @@ nav .name {
     font-weight: 700;
     text-decoration: none;
     color:black;
-    
+    list-style: none;
+}
+nav .name a,
+nav .name a:visited,
+nav .name a:hover,
+nav .name a:active,
+nav .name a:focus-visible {
+    color: #24231f;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -57,6 +67,10 @@ nav hr {
     border-top: 1px solid #e8e4da;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 @media (max-width: 767px) {
     nav {
         min-height: 68px;
@@ -66,8 +80,35 @@ nav hr {
         font-size: 22px;
     }
 
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        padding: 8px;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .menu-toggle img {
+        display: block;
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+    }
+
     .nav-links {
-        gap: 10px;
-        font-size: 13px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin: 0;
+        padding: 16px;
+        background: white;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+        font-size: 14px;
     }
 }
