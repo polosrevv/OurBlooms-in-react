@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/17/2026
 // Simple script to get screen Width to use for the navbar
 import { useState, useEffect } from 'react';
 
