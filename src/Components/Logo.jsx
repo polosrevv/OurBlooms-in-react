@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 function Logo() {
     return (
         <div className="logo">

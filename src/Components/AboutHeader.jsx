@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/16/2026
 function AboutHeader() {
     return (
         <div className="about-header">

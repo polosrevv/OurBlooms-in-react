@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 function Stuff({ number, image, imageAlt, title, description }) {
     return (
         <div className="Stuff-component">

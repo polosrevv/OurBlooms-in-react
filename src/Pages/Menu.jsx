@@ -1,3 +1,7 @@
+// Steven Gonell
+//11/16/2026
+// If your wondering why this one has actual code inside of it its because I was dumb as a rock during class and didn't split this into several jsx files and while I did make the repeated code in jsx, the differents div's should've been jsx files and I am aware
+
 import Navbar from '../Components/Navbar'
 import SeasonalArrangements from '../Components/Seasonal_Arrangement'
 import Services from '../Components/Services'

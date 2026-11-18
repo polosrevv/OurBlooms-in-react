@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/14/2026
 import { Link } from 'react-router-dom'
 import BlueFlower from '../assets/blueFlower.png'
 import Bottom from '../assets/Bottom.png'

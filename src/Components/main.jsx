@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 import carouselImage from '../assets/Carousel.png'
 import { Link } from 'react-router-dom'
 

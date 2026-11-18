@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 import headerImage from '../assets/Header.png'
 
 function Header() {

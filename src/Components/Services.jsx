@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 import '../Styles/App.css'
 import '../Styles/Navbar.css'
 

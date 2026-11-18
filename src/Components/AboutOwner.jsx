@@ -1,3 +1,6 @@
+
+// Steven Gonell
+// 11/16/2026
 import Owner from '../assets/LilySmith.png'
 import mini from '../assets/mini.png'
 import flowers from '../assets/flowers.png'

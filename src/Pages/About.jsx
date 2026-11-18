@@ -1,3 +1,5 @@
+// Steven Gonell
+// //11/16/2026
 import Navbar from '../Components/Navbar'
 import AboutHeader from '../Components/AboutHeader'
 import AboutOwner from '../Components/AboutOwner'

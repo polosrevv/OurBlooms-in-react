@@ -1,3 +1,5 @@
+// Steven Gonell
+// 11/13/2026
 import floralInstallation from "../assets/Floral-Installation.png"
 import nativePlants from "../assets/nativePlants.png"
 import flowers from "../assets/flowers.png"
