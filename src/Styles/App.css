@@ -14,7 +14,15 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
+.logo-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 14px;
 
+}
 .main {
     width: 90%;
     max-width: 1200px;
